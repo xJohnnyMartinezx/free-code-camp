@@ -21,35 +21,43 @@
 //         // Only change code below this line
 //     lastNameLength = lastName.length;
 //     console.log(lastNameLength);
+//
+//
+//     //     **********************************
+//     // Use Bracket Notation to Find the First Character in a String
+//     // Use bracket notation to find the first character in the lastName variable and assign it to firstLetterOfLastName.
+//         // Setup
+//     let firstLetterOfLastName = "";
+//     const lastName = "Lovelace";
+//
+//         // Only change code below this line
+//     firstLetterOfLastName = lastName[0]; // Change this line
+//     console.log(firstLetterOfLastName);
+//
+//
+//     //     **********************************
+//     // Understand String Immutability
+//     // Correct the assignment to myStr, so it contains the string value of Hello World using the approach shown in the example above.
+//     // Setup
+//     let myStr = "Jello World";
+//
+// // Only change code below this line
+//     myStr = "Hello World"; // Change this line
+//     console.log(myStr);
+// // Only change code above this line
 
 
     //     **********************************
-    // Use Bracket Notation to Find the First Character in a String
-    // Use bracket notation to find the first character in the lastName variable and assign it to firstLetterOfLastName.
-        // Setup
-    let firstLetterOfLastName = "";
+
+    // Use Bracket Notation to Find the Nth Character in a String
+    // Let's try to set thirdLetterOfLastName to equal the third letter of the lastName variable using bracket notation.
+
+    // Setup
     const lastName = "Lovelace";
 
-        // Only change code below this line
-    firstLetterOfLastName = lastName[0]; // Change this line
-    console.log(firstLetterOfLastName);
-
-
-    //     **********************************
-    // Correct the assignment to myStr, so it contains the string value of Hello World using the approach shown in the example above.
-    // Setup
-    let myStr = "Jello World";
-
-// Only change code below this line
-    myStr = "Hello World"; // Change this line
-    console.log(myStr);
-// Only change code above this line
-
-
-    //     **********************************
-
-
-
+    // Only change code below this line
+    const thirdLetterOfLastName = lastName[2]; // Change this line
+    console.log(thirdLetterOfLastName);
 
     //     **********************************
 
