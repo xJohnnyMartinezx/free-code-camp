@@ -58,21 +58,29 @@
 //     // Only change code below this line
 //     const thirdLetterOfLastName = lastName[2]; // Change this line
 //     console.log(thirdLetterOfLastName);
+//
+//     //     **********************************
+//
+//     // Use Bracket Notation to Find the Last Character in a String
+//     // Use bracket notation to find the last character in the lastName variable.
+// // Setup
+//     const lastName = "Lovelace";
+//
+// // Only change code below this line
+//     const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
+//     console.log(lastLetterOfLastName);
+//
+//     //     **********************************
 
-    //     **********************************
+    // Use Bracket Notation to Find the Nth-to-Last Character in a String
+    // Use bracket notation to find the second-to-last character in the lastName string.
 
-    // Use Bracket Notation to Find the Last Character in a String
-    // Use bracket notation to find the last character in the lastName variable.
-// Setup
+    // Setup
     const lastName = "Lovelace";
 
 // Only change code below this line
-    const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
-    console.log(lastLetterOfLastName);
-
-    //     **********************************
-
-
+    const secondToLastLetterOfLastName = lastName[lastName - 2]; // Change this line
+    console.log(secondToLastLetterOfLastName);
     //     **********************************
 
 
